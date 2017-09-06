@@ -1,0 +1,159 @@
+/*================
+===== Colors =====
+
+#727272
+#8d8d8d
+
+=================*/
+
+/*===============
+==Basic Setup==
+================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px; /*All fonts relative to this 20px*/
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1} /*This clears the floast between elements, no overlapping margins/padding*/
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*=====================
+==Reusable Components==
+======================*/
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto; /*CENTER*/
+}
+
+section{
+    padding: 80px 0;
+}
+
+.box{
+    padding: 1%;
+}
+
+/*===============
+==== HEADER =====
+================*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/ned-stark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.head-box-text{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+}
+
+.logo{
+    height: 150px;
+    float: left;
+    margin-top: 45px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    color: #fff;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid #727272 transparent;
+    padding: 8px 0;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #727272;
+    
+}
+
+h1{
+    color: #727272;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/*===============
+==== BUTTONS ====
+================*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s; /*Slowly changes color of background*/
+}
+
+.btn-full:link,
+.btn-full:visited {
+    border: 2px solid #8d8d8d;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 2px solid #8d8d8d;
+    color: #fff;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #727272;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #727272;
+   color: #fff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #727272;
+   color: #fff;
+}
