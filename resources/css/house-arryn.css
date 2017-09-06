@@ -163,7 +163,7 @@ header{
 
 h1{
     font-weight:400;
-    color: #f0d45c;
+    color: #101f71;
     letter-spacing: 1px;
 }
 
@@ -184,67 +184,29 @@ h3{
     border-bottom: 1px solid #efefef;
     width: auto;
 }
-/*==============
-=== Features ===
-===============*/
-
-.section-features .long-copy{
-    margin-bottom: 30px;
-    text-align: center;
-}
 
 
 /*=======================
-==== Map of Westoros ====
+==== History Section ====
 ========================*/
 
-.map-of-westoros{
-    
+.arryn-history{
+    background-color: #e0e0e0;
+    border: 1px solid #101f71 ;
+    border-radius: 5px;
 }
 
-.map-of-westoros img{
-    
+.arryn-history p{
+    padding: 2%;
 }
 
-/*===========================
-======House of Westoros======
-============================*/
-
-.houses-of-westoros{
-    padding: 0;
+.arryn-maps img{
+    margin-left: 25%;
 }
 
-.house-layout{
-    list-style: none;
-    width: 100%;
-}
 
-.house-layout li{
-    display: block;
-    float: left;
-    width: 25%;
-}
 
-.house-photo{
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-}
 
-.house-photo img{
-    opacity: 0.5;
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-    
-}
-
-.house-photo img:hover{
-    transform: scale(1);
-    opacity: 1;
-}
 
 
 
