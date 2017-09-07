@@ -1,6 +1,6 @@
 /*================
 ===== Colors =====
-
+#101f71
 #f0d45c
 #101f71
 #8d8d8d
@@ -186,25 +186,91 @@ h3{
 }
 
 
+
+/*=========================
+==== House Sigil Icons ====
+==========================*/
+
+.icon-group-one{
+    position: absolute;
+    margin-left: 10%;
+}
+
+
+.icon-group-two{
+    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+
+}
+
+.icon-group-three{
+    position: absolute;
+    margin-left: 80%;
+
+}
+
+
+.icon-group-four{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 10%;
+}
+
+.icon-group-one img{
+    margin-right: 25px;
+}
+
+.icon-group-two img{
+    margin-right: 25px;
+}
+
+.icon-group-three img{
+    margin-right: 25px;
+}
+
+.icon-group-four img{
+    margin-right: 25px;
+
+}
+
+.arryn-video{
+    margin-left: 37%;
+    margin-right: 33%;
+    margin-top: 50px;
+    
+}
+
 /*=======================
 ==== History Section ====
 ========================*/
 
 .arryn-history{
-    background-color: #e0e0e0;
-    border: 1px solid #101f71 ;
-    border-radius: 5px;
+    background-color: #dbdbdb;
 }
 
-.arryn-history p{
+.arryn-history-text{
+    background-color: #191980;
+    border: 1px solid #101f71 ;
+    color: #eee;
+    border-radius: 5px;
+    line-height: 1;
+}
+
+.arryn-history-text p{
     padding: 2%;
 }
 
-.arryn-maps img{
-    margin-left: 25%;
+
+.arryn-maps{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(img/eyrie.jpg);
+    background-size: cover;
+    
+    background-attachment: fixed;
+    padding: 15%;
+    margin-bottom: 50px;
 }
-
-
 
 
 
